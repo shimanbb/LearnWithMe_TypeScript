@@ -13,3 +13,10 @@ var str: string;
 
 num = 0;
 str = "Hello World!";
+
+//Union Type
+var unionVariable: number | string | string[];
+unionVariable = 2;
+unionVariable = 'Hello World';
+unionVariable = ["Hello", "World"];
+unionVariable = true;
