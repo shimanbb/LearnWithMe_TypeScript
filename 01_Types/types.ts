@@ -37,6 +37,13 @@ var enumVal1: MyEnum1 = MyEnum1.Val1;
 enum MyEnum2 {Val1 = 11, Val2, Val3};
 var enumVal2: MyEnum2 = MyEnum2.Val2;
 
+//Void
+var returnVal = function () {
+  //do nothing
+};
+
+//returnVal = 1;
+
 //Union Type
 var unionVariable: number | string | string[];
 unionVariable = 2;

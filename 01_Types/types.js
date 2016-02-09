@@ -29,6 +29,8 @@ var MyEnum2;
 })(MyEnum2 || (MyEnum2 = {}));
 ;
 var enumVal2 = MyEnum2.Val2;
+var returnVal = function () {
+};
 var unionVariable;
 unionVariable = 2;
 unionVariable = 'Hello World';
