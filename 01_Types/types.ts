@@ -38,9 +38,7 @@ enum MyEnum2 {Val1 = 11, Val2, Val3};
 var enumVal2: MyEnum2 = MyEnum2.Val2;
 
 //Void
-var returnVal = function () {
-  //do nothing
-};
+var returnVal: void;
 
 //returnVal = 1;
 
@@ -49,4 +47,13 @@ var unionVariable: number | string | string[];
 unionVariable = 2;
 unionVariable = 'Hello World';
 unionVariable = ["Hello", "World"];
-//unionVariable = true;
+//unionVariable = true; //Error
+
+//Type Alias
+type myUnion = number | string | string[];
+
+var myUnionVariable: myUnion;
+myUnionVariable = 2;
+myUnionVariable = 'Hello World';
+myUnionVariable = ["Hello", "World"];
+//myUnionVariable = true; //Error
