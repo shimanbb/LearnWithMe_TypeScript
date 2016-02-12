@@ -38,3 +38,26 @@ var myUnionVariable;
 myUnionVariable = 2;
 myUnionVariable = 'Hello World';
 myUnionVariable = ["Hello", "World"];
+var globalVar = 0;
+var globalLet = 0;
+var globalConst = 0;
+function myFunction() {
+    var localVar = 1;
+    var localLet = 1;
+    var localConst = 1;
+    {
+        var blockVar = 1;
+        var blockLet = 1;
+        var blockConst = 1;
+    }
+    globalVar = 2;
+    globalLet = 2;
+    alert(globalConst);
+    localVar = 2;
+    localLet = 2;
+    alert(localConst);
+    blockVar = 2;
+}
+globalVar = 3;
+globalLet = 3;
+alert(globalConst);

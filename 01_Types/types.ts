@@ -57,3 +57,39 @@ myUnionVariable = 2;
 myUnionVariable = 'Hello World';
 myUnionVariable = ["Hello", "World"];
 //myUnionVariable = true; //Error
+
+//Scopes
+var globalVar: number = 0;
+let globalLet: number = 0;
+const globalConst : number = 0;
+function myFunction (){
+  var localVar: number = 1;
+  let localLet: number = 1;
+  const localConst : number = 1;
+
+  {
+    var blockVar: number = 1;
+    let blockLet: number = 1;
+    const blockConst : number = 1;
+  }
+
+  globalVar = 2;
+  globalLet = 2;
+  alert(globalConst);
+  localVar = 2;
+  localLet = 2;
+  alert(localConst);
+  blockVar = 2;
+  //blockLet = 2; //Error
+  //alert(blockConst); //Error
+}
+
+globalVar = 3;
+globalLet = 3;
+alert(globalConst);
+//localVar = 3; //Error
+//localLet = 3; //Error
+//alert(localConst);
+//blockVar = 3; //Error
+//blockLet = 3; //Error
+//alert(blockConst); //Error
