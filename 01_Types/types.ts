@@ -71,6 +71,8 @@ function myFunction (){
     var blockVar: number = 1;
     let blockLet: number = 1;
     const blockConst : number = 1;
+
+    type blockTypeAlias = number | string | string[];
   }
 
   globalVar = 2;
@@ -82,6 +84,7 @@ function myFunction (){
   blockVar = 2;
   //blockLet = 2; //Error
   //alert(blockConst); //Error
+  //var blockTypeVar: blockTypeAlias; //Error
 }
 
 globalVar = 3;
