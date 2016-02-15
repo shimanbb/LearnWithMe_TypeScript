@@ -66,3 +66,10 @@ var v2 = v1;
 v2 = v2;
 var v3 = v2;
 v3 = 2;
+var a;
+if (typeof a === "number") {
+}
+if (typeof a === "string") {
+    a.toLowerCase();
+}
+a.toLowerCase();

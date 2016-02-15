@@ -109,3 +109,18 @@ var v2 = <type2> v1;
 v2 = <any> v2;
 var v3 = <any> v2;
 v3 = 2;
+
+//Type Guard
+var a: any;
+
+if(typeof a === "number")
+{
+  //a.toLowerCase(); //Error
+}
+
+if(typeof a === "string")
+{
+  a.toLowerCase(); //No Problem
+}
+
+a.toLowerCase();
