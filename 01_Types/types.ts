@@ -96,3 +96,16 @@ alert(globalConst);
 //blockVar = 3; //Error
 //blockLet = 3; //Error
 //alert(blockConst); //Error
+
+//Casting
+type type1 = {id: number, name: string}
+type type2 = {name: string, id: number}
+
+var v1: type1 = {id: 2, name: 'abc'}
+//var num = <number> v1; //Error
+var v2 = <type2> v1;
+
+//v2 = 2; //Error
+v2 = <any> v2;
+var v3 = <any> v2;
+v3 = 2;

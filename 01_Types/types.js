@@ -61,3 +61,8 @@ function myFunction() {
 globalVar = 3;
 globalLet = 3;
 alert(globalConst);
+var v1 = { id: 2, name: 'abc' };
+var v2 = v1;
+v2 = v2;
+var v3 = v2;
+v3 = 2;
