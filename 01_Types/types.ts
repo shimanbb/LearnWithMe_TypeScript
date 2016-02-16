@@ -124,3 +124,14 @@ if(typeof a === "string")
 }
 
 a.toLowerCase();
+
+type t = number | string;
+
+var b: t;
+
+if(typeof b === 'string')
+{
+	b.toLowerCase();
+}
+
+//b.toLowerCase(); //Error

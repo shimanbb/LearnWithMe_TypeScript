@@ -73,3 +73,7 @@ if (typeof a === "string") {
     a.toLowerCase();
 }
 a.toLowerCase();
+var b;
+if (typeof b === 'string') {
+    b.toLowerCase();
+}
