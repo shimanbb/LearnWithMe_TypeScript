@@ -79,4 +79,3 @@ var b;
 if (typeof b === 'string') {
     b.toLowerCase();
 }
-alert(window.location);

@@ -140,6 +140,3 @@ if(typeof b === 'string')
 }
 
 //b.toLowerCase(); //Error
-
-//Ambient Declaration
-alert(window.location);
