@@ -34,6 +34,8 @@ var unionVariable;
 unionVariable = 2;
 unionVariable = 'Hello World';
 unionVariable = ["Hello", "World"];
+var v;
+v = { value: "A", id: 1 };
 var myUnionVariable;
 myUnionVariable = 2;
 myUnionVariable = 'Hello World';
@@ -77,3 +79,4 @@ var b;
 if (typeof b === 'string') {
     b.toLowerCase();
 }
+alert(window.location);

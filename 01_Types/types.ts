@@ -49,6 +49,12 @@ unionVariable = 'Hello World';
 unionVariable = ["Hello", "World"];
 //unionVariable = true; //Error
 
+//Anonymous Type
+var v: {id: number, value: string};
+
+//v = {value: 1, id: "A"} //Error
+v = {value: "A", id: 1};
+
 //Type Alias
 type myUnion = number | string | string[];
 
@@ -126,7 +132,6 @@ if(typeof a === "string")
 a.toLowerCase();
 
 type t = number | string;
-
 var b: t;
 
 if(typeof b === 'string')
@@ -135,3 +140,6 @@ if(typeof b === 'string')
 }
 
 //b.toLowerCase(); //Error
+
+//Ambient Declaration
+alert(window.location);
