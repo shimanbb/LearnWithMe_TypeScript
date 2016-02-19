@@ -1,1 +1,4 @@
-alert('Hello World!!');
+function displayAlert() {
+}
+var showAlert = function () {
+};
