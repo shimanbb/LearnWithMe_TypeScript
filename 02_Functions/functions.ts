@@ -1,6 +1,13 @@
-//Type Notation
-function displayAlert (): void {
+//Functions
+function declaredFunction () {
 }
 
-var showAlert = function (): void {
+var expressedFunction = function () {
 }
+
+var arrowOperatorExp = () => {
+}
+
+declaredFunction();
+expressedFunction();
+arrowOperatorExp();

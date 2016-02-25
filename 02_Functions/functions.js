@@ -1,4 +1,9 @@
-function displayAlert() {
+function declaredFunction() {
 }
-var showAlert = function () {
+var expressedFunction = function () {
 };
+var arrowOperatorExp = function () {
+};
+declaredFunction();
+expressedFunction();
+arrowOperatorExp();
