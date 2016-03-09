@@ -1,7 +1,7 @@
-function addNumbers(a: number, b: number, c?:number): void {
+function addNumbersWithOptionalParams(a: number, b: number, c?:number, d?: number): void {
     var res = a + b;
-
-    if(c != undefined)
+    alert(d);
+    if(c)
     {
         res += c;
 
@@ -11,6 +11,6 @@ function addNumbers(a: number, b: number, c?:number): void {
 
     alert('a + b = ' + res);
 }
-//addNumbers(1);
-addNumbers(1, 2);
-addNumbers(1, 2, 3)
+//addNumbersWithOptionalParams(1);
+addNumbersWithOptionalParams(1, 2, null, 3);
+addNumbersWithOptionalParams(1, 2, 3);
