@@ -24,6 +24,7 @@
     "files": [
         "functions_default-parameters.ts",
         "functions_optional-parameters.ts",
+        "functions_rest-parameters.ts",
         "functions_type-notation.ts",
         "functions.ts"
     ],

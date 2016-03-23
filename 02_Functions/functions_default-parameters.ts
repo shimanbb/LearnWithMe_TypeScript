@@ -3,6 +3,6 @@ function addNumbersWithDefaultParameters(a: number, b: number, c:number = 0, d: 
 
     alert('result = ' + res);
 }
-//addNumbersWithDefaultParameters(1);
+
 addNumbersWithDefaultParameters(1, 2);
 addNumbersWithDefaultParameters(1, 2, 3)
