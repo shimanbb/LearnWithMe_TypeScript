@@ -10,5 +10,4 @@ function addNumbersWithRestParameters(... n: number[]): void {
 }
 
 addNumbersWithRestParameters(2);
-
 addNumbersWithRestParameters(2, 2, 2, 2, 2);
