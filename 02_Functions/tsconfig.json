@@ -24,6 +24,7 @@
     "files": [
         "functions_callbacks.ts",
         "functions_default-parameters.ts",
+        "functions_iif.ts",
         "functions_optional-parameters.ts",
         "functions_overloading.ts",
         "functions_rest-parameters.ts",
