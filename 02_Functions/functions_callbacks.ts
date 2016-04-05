@@ -8,3 +8,7 @@ var callbackFunction = function(): void {
 }
 
 mainFunction(callbackFunction);
+
+mainFunction((): void => {
+    alert("Arrow Function Callback");
+})
